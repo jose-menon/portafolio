@@ -138,13 +138,79 @@ body
 
 .presentacion_imagen
 {
-    width: 50%;
+    width: 35%;
 }
 
 .presentacion__contenido__texto a
 {
     text-decoration: none;
     color: var(--color-tercerio);
+}
+
+.proyectos
+{
+    display: flex;
+    padding: 5% 8%;
+    flex-direction: column;
+    gap: 82px;
+}
+
+.proyecto_contenido
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 40px;
+}
+
+.proyecto_muestrario
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.proyecto_encriptador,
+.proyecto_juego
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.proyecto_encriptador video,
+.proyecto_juego video
+{
+    width: 55%;
+}
+
+.proyecto_enlaces_link
+{
+    width: 55%;
+    /* height: 68px; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
+    padding: 16px 0;
+    border: 2px solid var(--color-tercerio);
+    border-radius: 8px;
+    font-family: var(--fuente-monserrat);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-secundario);
+}
+.proyecto_encriptador p,
+.proyecto_juego p
+{
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--fuente-krona);
+    font-size: 0.7rem;
 }
 
 .footer
